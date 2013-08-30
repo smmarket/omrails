@@ -37,4 +37,7 @@ Omrails::Application.configure do
 
   # In production set to actual hostname
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  #PaperClip
+  Paperclip.options[:command_path] = "/usr/local/bin/convert"
 end
