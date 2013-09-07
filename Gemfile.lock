@@ -147,7 +147,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk
   bootstrap-sass (~> 2.2.2.0)
-  bootstrap-will_paginate (= 0.0.6)
+  bootstrap-will_paginate
   coffee-rails (~> 3.2.1)
   devise
   faker (= 1.1.2)
@@ -160,4 +160,4 @@ DEPENDENCIES
   sqlite3
   thin
   uglifier (>= 1.0.3)
-  will_paginate (= 3.0.3)
+  will_paginate

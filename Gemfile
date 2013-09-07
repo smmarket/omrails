@@ -10,8 +10,8 @@ gem 'thin'
 gem "paperclip", "~> 3.0"
 gem 'aws-sdk'
 gem 'faker', '1.1.2'
-gem 'will_paginate', '3.0.3'
-gem 'bootstrap-will_paginate', '0.0.6'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :production do
 	gem 'pg'
